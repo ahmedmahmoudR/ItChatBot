@@ -547,7 +547,7 @@ namespace Microsoft.Teams.Apps.AskHR.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to **{0}** is requesting support..
+        ///   Looks up a localized string similar to {0}.
         /// </summary>
         public static string QuestionForExpertSubHeaderText {
             get {

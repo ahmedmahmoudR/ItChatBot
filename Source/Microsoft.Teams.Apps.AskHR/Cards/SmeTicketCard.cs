@@ -57,7 +57,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextBlock
                     {
-                        Text = string.Format(CultureInfo.InvariantCulture, Resource.QuestionForExpertSubHeaderText, this.Ticket.RequesterName),
+                        Text = string.Format(CultureInfo.InvariantCulture, Resource.QuestionForExpertSubHeaderText, this.Ticket.RequesterUserPrincipalName),
                         Wrap = true,
                         HorizontalAlignment = textAlignment
                     },
